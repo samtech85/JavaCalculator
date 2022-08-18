@@ -1,0 +1,19 @@
+package addition;
+import java.util.Scanner;
+
+
+public class Calculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Addition add = new Addition();
+		
+		Scanner input = new Scanner(System.in);
+		add.num1 = input.nextInt();
+		
+		add.num2 = input.nextInt();
+		
+		System.out.println(add.total);
+	}
+
+}
